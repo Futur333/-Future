@@ -1,0 +1,58 @@
+html{
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+
+}
+
+body {
+  background-color: #E97451;
+  background-image: url('BG.jpg');
+  background-position: center center;
+  box-sizing: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.profile-picture {
+  border: 10px double rgb(4, 0, 0);
+  border-radius: 60%;
+
+
+
+}
+.links{
+    display: block;
+    padding: 30px 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-width: 3px;
+    width: 500px;
+    height: 150px;
+    margin: 0 auto 50 auto;
+    border-radius: 100px;
+    font-size: 50px;
+    text-decoration: none;
+}
+a {
+  text-decoration: none;
+
+  color: rgb(238, 228, 228);
+  transition: color 1s;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+  font: bold;
+}
+.profile-name {
+  text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 45px;
+    font-style: oblique;
+
+}
